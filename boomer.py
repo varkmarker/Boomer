@@ -102,11 +102,15 @@ print(
     colr().hex("#6666ff", "                |", rgb_mode=True),
 )
 Colors.light_blue("     " + dash)
+
+
 def boom():
     try:
         try:
             limits = int(
-                input(colr().hex("#0000ff", "\n     Enter you limits  : ", rgb_mode=True))
+                input(
+                    colr().hex("#0000ff", "\n     Enter you limits  : ", rgb_mode=True)
+                )
             )
             message = input(
                 colr().hex("#0000ff", "     Enter you message : ", rgb_mode=True)
@@ -116,6 +120,7 @@ def boom():
             Colors.red("\n                       Invalid limit")
             exit()
         sleep(5)
+        # For loop to print the message as the user set limits
         for limit in range(limits):
             py.typewrite(message)
             py.press("Enter")
@@ -125,4 +130,6 @@ def boom():
     except KeyboardInterrupt:
         Colors.red("\n\n                         KeyboardInterrupt")
         exit()
+
+
 boom()

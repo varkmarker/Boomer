@@ -3,10 +3,13 @@
 
 # Installation Step
 
-    git clone https://github.com/varkmarker/Typer_Boomer.git
+    git clone https://github.com/varkmarker/Boomer.git
 <br>
     
-    cd Typer_Boomer
+    cd Boomer
 <br>
-    
+
+    pip install -r requirements.txt -t .
+<br>
+
     python3 boomer.py
