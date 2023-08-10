@@ -9,4 +9,4 @@
     cd Typer_Boomer
 <br>
     
-    python3 typer_boomer.py
+    python3 boomer.py
