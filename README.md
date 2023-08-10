@@ -1,7 +1,7 @@
-# Typer_Boomer
+# Boomer
 
 
-# Installation Step
+# Installation Steps
 
     git clone https://github.com/varkmarker/Boomer.git
 <br>
